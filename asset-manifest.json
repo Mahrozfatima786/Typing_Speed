@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Typing_Speed/static/css/main.323d8df4.css",
+    "main.js": "/Typing_Speed/static/js/main.6646f329.js",
+    "index.html": "/Typing_Speed/index.html",
+    "main.323d8df4.css.map": "/Typing_Speed/static/css/main.323d8df4.css.map",
+    "main.6646f329.js.map": "/Typing_Speed/static/js/main.6646f329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.323d8df4.css",
+    "static/js/main.6646f329.js"
+  ]
+}
