@@ -1,6 +1,6 @@
-import React, { useState, useEffect, useRef, useMemo } from "react";
-import Result from "./Result"; // adjust this path if needed
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useTestModel } from "../Context/TestModelContext";
+import Result from "./Result"; // adjust this path if needed
 
 const TypingBox = () => {
 	const originalText =
