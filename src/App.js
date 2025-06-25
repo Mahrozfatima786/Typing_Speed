@@ -77,7 +77,7 @@
 /////////////////////////////////////////
 // App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import GlobalStyle from "./Styles/Global";
 import { TestModelProvider } from "./Context/TestModelContext";
 import UpperMenu from "./Component/UpperMenu";
