@@ -22,7 +22,7 @@ export default function Result(props) {
 		labels: ["Very Slow", "Slow", "Average", "Fluent", "Fast", "PRO"],
 		datasets: [
 			{
-				label: "Sales",
+				label: "Spead",
 				data: [85, 80, 70, 60, 45, 25],
 				borderColor: "rgba(75, 192, 192, 1)",
 				borderWidth: 2,
@@ -36,7 +36,7 @@ export default function Result(props) {
 		plugins: {
 			title: {
 				display: true,
-				text: "Monthly Sales Data",
+				text: "Your Score",
 			},
 		},
 	};

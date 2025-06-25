@@ -76,21 +76,14 @@
 // export default App;
 /////////////////////////////////////////
 // App.js
-import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import GlobalStyle from "./Styles/Global";
-import { TestModelProvider } from "./Context/TestModelContext";
-import UpperMenu from "./Component/UpperMenu";
-import TypingBox from "./Component/TypingBox";
+import { Route, HashRouter as Router, Routes } from "react-router-dom";
 import Result from "./Component/Result";
+import TypingBox from "./Component/TypingBox";
+import { TestModelProvider } from "./Context/TestModelContext";
+import GlobalStyle from "./Styles/Global";
 
 function Home() {
-	return (
-		<>
-			{/* <UpperMenu /> */}
-			<TypingBox />
-		</>
-	);
+	return <TypingBox />;
 }
 
 function About() {
